@@ -1,3 +1,14 @@
+$primary-color : palevioletred;
+$secondary-color : #fff;
+$tertiary-color : #000;
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("./font/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: "questrial";
+    src: url("./font/Questrial-Regular.ttf");
+}
 *{
     padding: 0;
     margin: 0;
@@ -14,6 +25,9 @@ header{
         width: 372px;
         justify-content: center;
         align-items: center;
+        span{
+            font-family: 'Montserrat-Medium';
+        }
     }
     .container-list-links{
         ul{
@@ -31,6 +45,7 @@ header{
                 align-items: center;
                 display: flex;
                 li{
+                    font-family: 'Montserrat-Medium';
                     text-align: center;
                     vertical-align: middle;
                     height: 20px;
@@ -41,7 +56,7 @@ header{
             }
             a:active, a:focus{
                 background-color: red;
-                color: #fff;
+                color: $secondary-color;
             }
             a:hover{
                 background-color: rgba(red, .5);
@@ -54,20 +69,24 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: palevioletred;
+    background-color: $primary-color;
     width: 100%;
     height: 500px;
     align-items: center;
     .content-bg
     h1,p {
-        color: #fff;
+        letter-spacing: 5px;
+
+        color: $secondary-color;
         margin: 20px 0;
+        font-family: 'Montserrat-Medium';
     }
     button{
+        font-family: 'Montserrat-Medium';
         cursor: pointer;
         border: 0;
-        background-color: #fff;
-        color: palevioletred;
+        background-color: $secondary-color;
+        color: $primary-color;
         height: 40px;
         width: 200px;
     }
@@ -80,6 +99,7 @@ header{
     justify-content: center;
     margin: 20px 0;
         i{
+            color: $primary-color;
             padding: 30px;
         }
     }
@@ -90,7 +110,6 @@ header{
         grid-gap: 20px;
         grid-auto-rows: minmax(100px, auto);
         .container-img{
-
             overflow: hidden;
             img{
                 width: 100%;
@@ -102,16 +121,17 @@ header{
     display: flex;
     justify-content: center;
     button{
-        background-color: palevioletred;
-        color: #fff;
+        background-color: $primary-color;
+        color: $secondary-color;
         width: 177px !important;
         height: 54px;
+        font-family: 'Montserrat-Medium';
     }
 }
 footer{
     margin: auto;
     display: flex;
-    background-color: #fff;
+    background-color: $secondary-color;
     height: auto;
     width: 100%;
     flex: auto;
@@ -126,7 +146,8 @@ footer{
         justify-content: center;
         color: grey;
         b{
-            color: palevioletred;
+            font-family: 'Montserrat-Medium';
+            color: $primary-color;
         }
     }
     .container-rs-footer{
@@ -136,6 +157,7 @@ footer{
         justify-content: center;
         flex-wrap: nowrap;
         li{
+            font-family: 'Montserrat-Medium';
             display: inline-block;
             padding: 0 10px;
             color: grey;

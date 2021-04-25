@@ -18,6 +18,10 @@ function rowImages() {
     contentImage.style.gridTemplateColumns = 'repeat(1, 1fr)'
     console.log('entro');
 }
+function columImages() {
+    contentImage.style.gridTemplateColumns = 'repeat(3, 1fr)'
+    console.log('entro');
+}
 function showMore () {
     cantidadImagenes + 10;
     if(cantidadImagenes <= images.length){} else {

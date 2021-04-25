@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("./font/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "questrial";
+  src: url("./font/Questrial-Regular.ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -30,6 +40,10 @@ header .container-logo {
           align-items: center;
 }
 
+header .container-logo span {
+  font-family: 'Montserrat-Medium';
+}
+
 header .container-list-links ul {
   margin-right: 50px;
   display: -webkit-box;
@@ -59,6 +73,7 @@ header .container-list-links ul a {
 }
 
 header .container-list-links ul a li {
+  font-family: 'Montserrat-Medium';
   text-align: center;
   vertical-align: middle;
   height: 20px;
@@ -95,11 +110,14 @@ header .container-list-links ul a:hover {
 
 .bg-pink .content-bg
 h1, .bg-pink p {
+  letter-spacing: 5px;
   color: #fff;
   margin: 20px 0;
+  font-family: 'Montserrat-Medium';
 }
 
 .bg-pink button {
+  font-family: 'Montserrat-Medium';
   cursor: pointer;
   border: 0;
   background-color: #fff;
@@ -124,6 +142,7 @@ h1, .bg-pink p {
 }
 
 .container-body .container-icons i {
+  color: palevioletred;
   padding: 30px;
 }
 
@@ -159,6 +178,7 @@ h1, .bg-pink p {
   color: #fff;
   width: 177px !important;
   height: 54px;
+  font-family: 'Montserrat-Medium';
 }
 
 footer {
@@ -200,6 +220,7 @@ footer .derechos-reservador {
 }
 
 footer .derechos-reservador b {
+  font-family: 'Montserrat-Medium';
   color: palevioletred;
 }
 
@@ -220,6 +241,7 @@ footer .container-rs-footer {
 }
 
 footer .container-rs-footer li {
+  font-family: 'Montserrat-Medium';
   display: inline-block;
   padding: 0 10px;
   color: grey;
