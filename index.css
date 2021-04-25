@@ -42,17 +42,38 @@ header .container-list-links ul {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  width: 400px;
+  width: 500px;
 }
 
-header .container-list-links ul li {
+header .container-list-links ul a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container-list-links ul a li {
   text-align: center;
   vertical-align: middle;
-  height: 30px;
-  width: 100px;
+  height: 20px;
+  width: 100%;
   padding: 10px;
-  border: 1px solid red;
   display: inline-block;
+}
+
+header .container-list-links ul a:active, header .container-list-links ul a:focus {
+  background-color: red;
+  color: #fff;
+}
+
+header .container-list-links ul a:hover {
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .bg-pink {
@@ -122,6 +143,22 @@ h1, .bg-pink p {
 
 .container-body .container-photos .container-img img {
   width: 100%;
+}
+
+.show-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.show-more button {
+  background-color: palevioletred;
+  color: #fff;
+  width: 177px !important;
+  height: 54px;
 }
 
 footer {
