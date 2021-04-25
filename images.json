@@ -1,0 +1,16 @@
+let images =[
+        {"name": "celular", "route": "https://i.imgur.com/sUSK5hW.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"name": "celular", "route": "https://i.imgur.com/Wex0CoT.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"name": "celular", "route": "https://i.imgur.com/7lTDBg7.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"name": "celular", "route": "https://i.imgur.com/mJGwILM.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"name": "celular", "route": "https://i.imgur.com/skkzgd1.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"name": "celular", "route": "https://i.imgur.com/xZgHYXi.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"name": "celular", "route": "https://i.imgur.com/fLdn7iB.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"name": "celular", "route": "https://i.imgur.com/19x0qLl.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"name": "celular", "route": "https://i.imgur.com/Ivb5qWu.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"name": "celular", "route": "https://i.imgur.com/BL2FWk1.jpg", "alt": "imagen de prueba 1", "autor": "User Tes"}
+        {"name": "celular", "route": "https://i.imgur.com/Kl8RnUF.jpg", "alt": "imagen de prueba 1", "autor": "User Tes"}
+        {"name": "celular", "route": "https://i.imgur.com/QTHRmED.jpg", "alt": "imagen de prueba 1", "autor": "User Tes"}
+        {"name": "celular", "route": "https://i.imgur.com/yNTwjod.jpg", "alt": "imagen de prueba 1", "autor": "User Tes"}
+        {"name": "celular", "route": "https://i.imgur.com/k45VOOy.jpg", "alt": "imagen de prueba 1", "autor": "User Tes"}
+    ]
