@@ -11,8 +11,10 @@
 <header>
     <div class="container-logo">
         <svg width="32" height="32" class="_1Jlgk" version="1.1" viewBox="0 0 32 32" aria-labelledby="unsplash-home" aria-hidden="false"><title id="unsplash-home">Unsplash Home</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg>
-        <span>Unsplash</span> <br/>
-        <span>Photos for everyone</span>
+        <div>
+            <span><b>Unsplash</b></span> <br/>
+            <span>Photos for everyone</span>
+        </div>
     </div>
     <div class="container-list-links">
         <ul>
@@ -22,11 +24,12 @@
             <a href="#"><li>Photography</li></a>
             <a href="#"><li>App</li></a>
             <a href="#">
-                <li>
-                    <svg width="32" height="32" class="_3cOFI _2Jh5K _2_G8g" version="1.1" viewBox="0 0 32 32" aria-hidden="false"><path d="M22 20c1.2-1.6 2-3.7 2-6 0-5.5-4.5-10-10-10S4 8.5 4 14s4.5 10 10 10c2.3 0 4.3-.7 6-2l6.1 6 1.9-2-6-6zm-8 1.3c-4 0-7.3-3.3-7.3-7.3S10 6.7 14 6.7s7.3 3.3 7.3 7.3-3.3 7.3-7.3 7.3z"></path></svg>
-                </li>
+                <svg width="32" height="32" class="_3cOFI _2Jh5K _2_G8g" version="1.1" viewBox="0 0 32 32" aria-hidden="false"><path d="M22 20c1.2-1.6 2-3.7 2-6 0-5.5-4.5-10-10-10S4 8.5 4 14s4.5 10 10 10c2.3 0 4.3-.7 6-2l6.1 6 1.9-2-6-6zm-8 1.3c-4 0-7.3-3.3-7.3-7.3S10 6.7 14 6.7s7.3 3.3 7.3 7.3-3.3 7.3-7.3 7.3z"></path></svg>
             </a>
         </ul>
+    </div>
+    <div class="menu-mobile-icon">
+        <i class="fas fa-ellipsis-v" onclick="closeDrawer()"></i>
     </div>
 </header>
 <body>
@@ -47,10 +50,23 @@
             <i class="fas fa-bars" onclick="rowImages()"></i>
         </div>
         <div class="container-photos" id="fotos">
+            <div class="container-img"></div>
+            <div class="container-img"></div>
+            <div class="container-img"></div>
         </div>
     </div>
     <div class="show-more">
-        <button onclick="showMore()">MOSTRAR MAS</button>
+        <button onclick="showMore()">SHOW ME MORE</button>
+    </div>
+    <div class="menu-lateral">
+        <i class="fas fa-times  btn-close-drawer" onclick="closeDrawer()"></i>
+        <ul>
+            <a href="/"><li>All</li></a>
+            <a href="#"><li>Branding</li></a>
+            <a href="#"><li>Web</li></a>
+            <a href="#"><li>Photography</li></a>
+            <a href="#"><li>App</li></a>
+        </ul>
     </div>
 </body>
 <footer>

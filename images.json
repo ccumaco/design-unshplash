@@ -3,10 +3,12 @@ let images =[
         {"category": "Branding", "route": "./img/img2.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
         {"category": "Branding", "route": "./img/img3.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
         {"category": "web", "route": "./img/img4.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
+        {"category": "App", "route": "./img/img11.jpg", "alt": "imagen de prueba 1", "autor": "User Tes"},
         {"category": "web", "route": "./img/img5.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
         {"category": "web", "route": "./img/img6.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
         {"category": "photography", "route": "./img/img7.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
         {"category": "photography", "route": "./img/img8.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
         {"category": "photography", "route": "./img/img9.jpg", "alt": "imagen de prueba 1", "autor": "User Test"},
-        {"category": "App", "route": "./img/img10.jpg", "alt": "imagen de prueba 1", "autor": "User Tes"}
+        {"category": "App", "route": "./img/img12.jpg", "alt": "imagen de prueba 1", "autor": "User Tes"},
+        {"category": "App", "route": "./img/img13.jpg", "alt": "imagen de prueba 1", "autor": "User Tes"}
     ]
